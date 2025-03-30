@@ -1,0 +1,42 @@
+*{
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.mg{
+    margin: 0px 150px;
+}
+header {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav {
+    background-color: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    margin-right: 300px;
+    justify-self: left;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: none;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.out{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+.confirm {
+    background-color: aqua;
+}
