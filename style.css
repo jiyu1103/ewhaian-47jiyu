@@ -4,6 +4,9 @@
     text-decoration: none;
     list-style: none;
 }
+h1{
+    font-size: 50px;
+}
 .mg{
     margin: 0px 150px;
 }
@@ -21,6 +24,7 @@ nav {
 }
 .logo{
     display: flex;
+    margin-top: 5px;
     margin-right: 300px;
     justify-self: left;
 }
@@ -35,8 +39,31 @@ nav {
 .out{
     border-style: solid;
     border-width: 2px;
-    border-color: red;
+    border-color: rgb(25, 152, 18);
+    color:rgb(25, 152, 18);
+}
+.qs{
+    background-color: #1d1d1d;
+    font-weight: bold;
 }
 .confirm {
     background-color: aqua;
+}
+#this{
+    color: #000000;
+    background-color: #fff;
+}
+.box{
+    margin: 20px 0px;
+    padding: 10px 30px;
+    background-color: #302f2f;
+    border-radius: 10px;
+}
+.q{
+    background-color: #302f2f;
+    font-weight: bold;
+}
+.a{
+    background-color: #302f2f;
+    margin: 20px 10px;
 }
