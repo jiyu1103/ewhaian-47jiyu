@@ -19,6 +19,10 @@ header {
     display: flex;
     margin-right: auto;
 }
+.img{
+    width: 175px;
+    height: 55px;
+}
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -28,7 +32,7 @@ header {
     cursor: pointer;
 }
 .out{
-    margin-top: 5px;
+    margin-top: 10px;
     border-style: solid;
     border-width: 2px;
     margin-left: 10px;
@@ -36,13 +40,13 @@ header {
     color:rgb(25, 152, 18);
 }
 .in{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .qs{
     background-color: #1d1d1d;
     font-weight: bold;
 }
-#this{
+.this{
     color: #000000;
     background-color: #fff;
 }
@@ -60,3 +64,13 @@ header {
     background-color: #302f2f;
     margin: 20px 10px;
 }
+#workContent{
+    display: block;
+}
+#workContent{
+    display: none;
+}
+#etcContent{
+    display: none;
+}
+
