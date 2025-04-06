@@ -24,9 +24,9 @@ function workClick(){
 }
 
 function ectClick(){
-    apply.ClassName = "button qs";
-    work.ClassName = "button qs";
-    etc.ClassName = "button qs this";
+    apply.className = "button qs";
+    work.className = "button qs";
+    etc.className = "button qs this";
     applyContent.style.display = "none";
     workContent.style.display = "none";
     etcContent.style.display = "block";
