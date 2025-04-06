@@ -5,8 +5,6 @@ const applyContent = document.querySelector("#applyContent");
 const workContent = document.querySelector("#workContent");
 const etcContent = document.querySelector("#etcContent");
 
-console.dir(apply)
-
 function applyClick(){
     applyContent.style.display = "block";
     workContent.style.display = "none";
@@ -43,6 +41,6 @@ function etcClick(){
 }
 
 
-apply.addEventListener("click", applyClick);
-work.addEventListener("click", workClick);
-etc.addEventListener("click", etcClick);
+apply.onclick = applyClick;
+work.onclick = workClick;
+etc.onclick = etcClick;
